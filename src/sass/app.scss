@@ -40,3 +40,25 @@
     }
   }
 }
+
+.counter-container {
+  margin: auto;
+  background-color: rebeccapurple;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  font-size: $normal-font;
+  padding: 10px 20px;
+}
+
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}

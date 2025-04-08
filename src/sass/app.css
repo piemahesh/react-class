@@ -38,4 +38,27 @@
   color: #2b58d4;
   text-decoration: none;
   font-size: 1.5em;
+}
+
+.counter-container {
+  margin: auto;
+  background-color: rebeccapurple;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  font-size: 1em;
+  padding: 10px 20px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
 }/*# sourceMappingURL=app.css.map */
