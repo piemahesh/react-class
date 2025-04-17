@@ -61,4 +61,26 @@
 
 .flex-col {
   flex-direction: column;
+}
+
+.disp-card {
+  border: "2px solid";
+  margin-top: "10px";
+  position: relative;
+  width: 100dvw;
+  height: 100svh;
+}
+
+.danger {
+  background-color: rebeccapurple;
+  border-radius: 30px;
+  border: 2px solid wheat;
+  transition: all 20s;
+}
+
+.success {
+  background-color: #1fca69;
+  border-radius: 50%;
+  border: 2px solid #4d0dba;
+  transition: all 20s linear;
 }/*# sourceMappingURL=app.css.map */
