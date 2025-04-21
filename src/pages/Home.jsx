@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Counter } from "../components/Counter";
 import { Display } from "../components/Display";
 import { Navbar } from "../components/Navbar";
+import { HooksConcepts } from "./HooksConcepts";
 
 export function Home() {
   const [count, setCount] = useState(1);
@@ -11,8 +12,11 @@ export function Home() {
     setCount((prev) => prev + 1);
     // setCount(20);
   };
-  return (
-    <div style={{ position: "relative" }}>
+  return <HooksConcepts />;
+}
+
+/*
+   <div style={{ position: "relative", display: "sticky", top: "0" }}>
       <Navbar />
       <Counter />
       <div>
@@ -37,5 +41,4 @@ export function Home() {
         name={"props sdafasd"}
       />
     </div>
-  );
-}
+*/
