@@ -3,6 +3,8 @@ import { Counter } from "../components/Counter";
 import { Display } from "../components/Display";
 import { Navbar } from "../components/Navbar";
 import { HooksConcepts } from "./HooksConcepts";
+import { MemoConcept } from "./MemoConcept";
+import { CallBack } from "./CallBack";
 
 export function Home() {
   const [count, setCount] = useState(1);
@@ -12,7 +14,8 @@ export function Home() {
     setCount((prev) => prev + 1);
     // setCount(20);
   };
-  return <HooksConcepts />;
+  // return <MemoConcept />;
+  return <CallBack />;
 }
 
 /*
